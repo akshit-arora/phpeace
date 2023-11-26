@@ -1,0 +1,53 @@
+{
+    "name": "akshitarora/phpeace",
+    "description": "A contribution of PHP/Laravel developers to support World Peace #PHPeace",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akshit Arora",
+            "email": "akshit.arora0907@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AkshitArora\\PHPeace\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AkshitArora\\PHPeace\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.33"
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "orchestra/testbench": "^8.15",
+        "pestphp/pest": "^2.25",
+        "phpstan/phpstan": "^1.10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AkshitArora\\PHPeace\\Providers\\PackageServiceProvider"
+            ],
+            "aliases": [
+                "AkshitArora\\PHPeace\\Facades\\PHPeace"
+            ]
+        }
+    }
+}
