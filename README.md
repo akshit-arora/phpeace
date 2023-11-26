@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# phpeace
-A package to display peace quotes in the application
-=======
 
 # PHPeace
 
@@ -61,4 +57,3 @@ Just add them to `quotes()` function in `src/PHPeace/PHPeace.php` file and submi
 
 If you have any feedback, please reach out to me on X at [akshitarora0907](https://twitter.com/akshitarora0907)
 
->>>>>>> Add README
