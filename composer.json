@@ -43,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AkshitArora\\PHPeace\\PHPeaceServiceProvider"
+                "AkshitArora\\PHPeace\\Providers\\PackageServiceProvider"
             ],
             "aliases": [
                 "AkshitArora\\PHPeace\\Facades\\PHPeace"

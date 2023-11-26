@@ -38,7 +38,7 @@ final class PHPeaceShowQuoteCommand extends Command
      */
     public function handle(): void
     {
-        $this->formatForConsole(PHPeace::getQuote());
+        $this->comment($this->formatForConsole(PHPeace::getQuote()));
     }
 
     /**
